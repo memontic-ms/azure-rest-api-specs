@@ -670,6 +670,10 @@
           "description": "Name of the operation with format: {provider}/{resource}/{operation}",
           "type": "string"
         },
+        "isDataAction": {
+          "description": "Indicates whether the operation is a data action",
+          "type": "boolean"
+        },
         "display": {
           "$ref": "#/definitions/OperationDisplay",
           "description": "The object that describes the operation."
